@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/start"
+        android:title="Запустить"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/stop"
+        android:title="Остановить"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:title="Поделиться маршутом"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sendlog"
+        android:title="Отправить лог"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/dellog"
+        android:title="Удалить лог"
+        app:showAsAction="never" />
+</menu>
